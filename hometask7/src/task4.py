@@ -4,7 +4,6 @@
 def groups_of_anagrams(words):
     groups = {}
     for word in words:
-        #sorted_word = ''.join(sorted(word))
         word_hash = 0
         for char in word:
             word_hash += ord(char)

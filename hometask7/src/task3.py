@@ -5,5 +5,4 @@
 def palindrome(word):
     word = word.lower()
     return word == word[::-1]
-
 print(palindrome("MOUSuom"))
